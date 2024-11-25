@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.menu a:hover {
+    background-color: #e06e22be;
+} 
+.menu a.active {
+    background-color: #f1731f;
+}
+
+.recuo { text-indent:4em }
+
+.conteudo {
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.conteudo img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.conteudo h1, .conteudo h2, .conteudo h3, .conteudo h4 {
+    text-align: center;
+    color: #333;
+}
+
+.ativista {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.ativista img {
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.ativista div {
+    flex: 1;
+}
+
+.ativista h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.ativista p {
+    margin: 0 0 10px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.rodape {
+    background-color: #f1731f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 0.9em;
+    margin-top: auto;
+}
+
+.rodape p {
+    margin: 5px 0;
+}
